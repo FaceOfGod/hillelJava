@@ -6,15 +6,27 @@ package OOP1;
  */
 public class StudentUp {
     public static void main(String[] args) {
-        Student student1 = new Student();
-        System.out.println(student1.id = 1);
-        student1.id = 1;
-        Student student2 = new Student();
-        student2.id = 100;
-        student1.come();
-        student2.come();
-        student1.live();
-        student2.live();
+        int [] marks = new int[10];
+        Student student1 = new Student(0, "Ivanov");
+        Student student2 = new Student(1, "Petrov");
+        Student student3 = new Student(3, "Sidorov");
+        Student student4 = new Student(4, "Smirnov");
+        Student student5 = new Student(5, "Slinko");
+        Student student6 = new Student(6, "Chinenov");
+        student1.setMarks(2, 5);
+        student2.setMarks(6, 2);
+        System.out.println(student1.getMarks(2));
+        Group group = new Group();
+        group.addStudents(student1);
+        group.addStudents(student2);
+        group.addStudents(student3);
+        group.addStudents(student4);
+        group.addStudents(student5);
+        group.addStudents(student6);
+        group.print();
+
+
+
 
 
 

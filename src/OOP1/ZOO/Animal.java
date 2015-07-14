@@ -26,7 +26,7 @@ public abstract class Animal {
         return "Hello ";
     }
 
-    public abstract void move();
+
 
 
 

@@ -22,7 +22,7 @@ public class App {
         Giraffe giraffe = new Giraffe(6,3,5, "Blue",true);
         zoo[6] = giraffe;
 
-
+        lion.roar();
 
         for (Animal an : zoo){
             an.say();

@@ -1,4 +1,4 @@
-package OOP1;
+package OOP1.StudentOOP_1;
 
 /**
  * Created by ITHILLEL6 on 30.06.2015.
@@ -12,16 +12,14 @@ public class Student {
         surname = "N/A";
         marks = new int[34];
     }
-    public Student(int id, String surname, int[] marks){
+    public Student(int id, String surname, int numOfMarks){
         this.id = id;
         this.surname = surname;
-        this.marks = marks;
+        this.marks = new int[numOfMarks];
     }
 
     public Student(int id, String surname) {
-        this.id = id;
-        this.surname = surname;
-        marks = new int[34];
+        this(id,surname,34);
     }
     public Student(Student st){
         id = st.id ;

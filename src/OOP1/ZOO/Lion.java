@@ -15,7 +15,7 @@ package OOP1.ZOO;
 
     @Override
     public void roar() {
-        System.out.println("Lion ROAR");
+        System.out.println("aRRRRRR");
     }
 }
 

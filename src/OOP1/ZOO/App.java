@@ -24,9 +24,6 @@ public class App {
 
         lion.roar();
 
-        for (Animal an : zoo){
-            an.say();
-        }
 
     }
 }

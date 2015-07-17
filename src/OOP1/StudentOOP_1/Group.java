@@ -1,4 +1,4 @@
-package OOP1;
+package OOP1.StudentOOP_1;
 
 /**
  * Created by ITHILLEL6 on 30.06.2015.

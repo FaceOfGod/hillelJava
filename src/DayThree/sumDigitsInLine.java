@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class sumDigitsInLine {
     public static void main(String[] args) {
-        System.out.println("Число");
+        System.out.println("Num");
         Scanner scn = new Scanner(System.in);
         int n = 0;
         n = scn.nextInt();
@@ -13,6 +13,6 @@ public class sumDigitsInLine {
             s += x % 10;
             x /= 10;
         }
-        System.out.println("Сума " + n + " = " + s);
+        System.out.println("Sum " + n + " = " + s);
     }
 }

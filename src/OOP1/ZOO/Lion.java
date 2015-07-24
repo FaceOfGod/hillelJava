@@ -4,7 +4,7 @@ package OOP1.ZOO;
  * Created by ITHILLEL6 on 10.07.2015.
  */
 
-    public class Lion extends Wild {
+    public class Lion extends Wild implements Roarbls {
         public Lion() {
         }
 
@@ -12,5 +12,10 @@ package OOP1.ZOO;
 
             super(id, age, weight, color, isPredator);
         }
+
+    @Override
+    public void roar() {
+        System.out.println("aRRRRRR");
     }
+}
 

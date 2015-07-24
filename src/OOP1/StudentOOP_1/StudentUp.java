@@ -1,5 +1,8 @@
-package OOP1;
+package OOP1.StudentOOP_1;
 
+
+import OOP1.StudentOOP_1.Group;
+import OOP1.StudentOOP_1.Student;
 
 /**
  * Created by ITHILLEL6 on 30.06.2015.

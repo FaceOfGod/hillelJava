@@ -9,9 +9,8 @@ public class RandomAiGameStrategy implements AiGameStrategy {
         while(true){
             int randomPlace = (int)(Math.random()*9);
             if(field[randomPlace]==0){
-                return randomPlace;
+                 return randomPlace;
             }
         }
-
     }
 }

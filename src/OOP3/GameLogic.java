@@ -36,7 +36,7 @@ public class GameLogic {
         if (data[2]== 1 && data[5]== 1 &&data[8]== 1) return true;
         if (data[0]== 1 && data[4]== 1 &&data[8]== 1) return true;
         if (data[2]== 1 && data[4]== 1 &&data[6]== 1) return true;
-        else return false;
+        else return  false;
 
     }
 

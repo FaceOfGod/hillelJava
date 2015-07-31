@@ -8,6 +8,8 @@ public abstract class Animal {
     private int age;
     private double weight;
     private String color;
+    private boolean isHungry;
+
 
     public Animal(int id, int age, double weight, String color) {
         this.id = id;

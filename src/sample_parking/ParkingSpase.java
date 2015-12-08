@@ -1,4 +1,4 @@
-package FilosophyJavaLess.sample_parking;
+package sample_parking;
 
 /**
  * Created by Сергей on 07.12.2015.
@@ -28,6 +28,7 @@ public class ParkingSpase {
         this.id = prSp.id;
         this.state = prSp.state;
     }
+
 
     public int getId() {
         return id;

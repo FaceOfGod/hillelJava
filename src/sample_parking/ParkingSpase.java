@@ -12,14 +12,6 @@ public class ParkingSpase {
         this.state = "N/A";
     }
 
-    public ParkingSpase(int id) {
-        this.id = id;
-    }
-
-    public ParkingSpase(String state) {
-        this.state = state;
-    }
-
     public ParkingSpase(int id, String state) {
         this.id = id;
         this.state = state;
@@ -28,7 +20,6 @@ public class ParkingSpase {
         this.id = prSp.id;
         this.state = prSp.state;
     }
-
 
     public int getId() {
         return id;

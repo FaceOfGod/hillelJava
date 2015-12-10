@@ -22,15 +22,24 @@ public class Parking {
 
         }
     }
+
+
     public void addParkingSpace(String state){
         ParkingSpase parkingSpase = new ParkingSpase(numOfSpase,state);
         addParkingSpace(parkingSpase);
+    }
+    public void addCarInSpace(ParkingSpase setCar){
+        setCar.setState("Busy place!!");
+    }
+    public void delCar(ParkingSpase delCar){
+        delCar.setState("Free place!!");
     }
     public void print() {
         for(int i = 0; i<numOfSpase; i++){
             System.out.println(parkingSpases[i].getId() + " " + parkingSpases[i].getState() + '\n');
         }
     }
+
 }
 
 

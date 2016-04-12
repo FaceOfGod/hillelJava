@@ -18,6 +18,9 @@ public class ParkingUp {
         parking.addCarInSpace(spaseOne);
         parking.delCar(spaseTwo);
         parking.addParkingSpace(spaseFoor);
+        parking.delCar(spaseOne);
+
+
 
 
         parking.print();
